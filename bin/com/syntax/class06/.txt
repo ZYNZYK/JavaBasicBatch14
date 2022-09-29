@@ -1,0 +1,24 @@
+Logical Operators
+
+Assignment operator:=
+Arithmetic:+,-,*,/,%
+Relational:<,>,<=,>=,==,!=
+
+
+Logical Operators:&&,||,! 
+* to test 2 or more conditions we use &&, ||
+
+ -Logical 'AND' $$  IF ONE CONDITION IS false THE RESULT WILL BE FALSE
+ 
+ true $$ true ->> logical end is ->>> TRUE 
+ true $$ false ->>>FALSE
+ false $$ true ->>>FALSE
+ false $$ false ->>>FALSE
+ 
+ 
+ -Logical 'OR' || -> IF ONE CONDITION IS TRUE THE RESULT WILL BE TRUE
+ 
+ true || true --->>> TRUE
+ true || false ->>>> TRUE
+ false || true ->>>> TRUE
+ false || false ->>> FALSE

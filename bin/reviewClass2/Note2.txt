@@ -1,0 +1,58 @@
+Type Casting:
+  COnverting the type of data from one data type to another one. We have 2 types of Type Casting:
+      1.Explicit/narrowing/Manual ->>>>  bigger data type to smaller
+      2.Implicit/Widening/Automatic ->>>(small into bigger box)
+      
+   Data type from small to bigger:
+     * byte (8) bite (smallest 
+     * short (16) - > > >
+     * char (16))
+     * int (32)
+     * long (64)
+     * float (32) different data type than long
+     * double (64)    
+   byte->short->char->int->long->float->double  
+   ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Implicit/Widening/Automatic
+   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<- Explicit/narrowing/Manual
+   Explicit/narrowing/Manual example:
+   int box=1000;
+   byte box2=(byte) box;
+   
+   Implicit/Widening/Automatic
+   short box1=250;
+   int box2=box1;
+==============================================================================================================================
+==============================================================================================================================
+If Statements:
+   If/ else condition->>> allow us to write programs that can take decisions based on some conditions and provide data.
+   if condition
+   if else condition
+   if else if condition
+   nested if else condition
+   
+*** WHY WE NEED IF ELSE Condition????
+ Because when we are solving real life problems
+ like testing web site our program need to make a lot of decisions
+ 
+*** what is the syntax of IF/ELSE Conditions?
+- if condition
+      boolean rich=true;
+      if (rich)
+      {
+      System.out.println("Lets buy a Jet and an Island");
+      }
+ 
+for String we are not using == BUT .equals());   
+
+*******  for primitive we use == like char int short
+non- primitives like String we use .equals()
+
+
+
+
+///////////////////////////////////////////
+IF WE NEED ONE OUTCOME BASED ON if CONDITION
+WE USE IF 
+IF THE OUTCOMES ARE 2 WE USE ELSE
+IF OUTCOMES ARE MORE THAN THAT WE CAN USE IF ELSE IF
+   

@@ -1,0 +1,38 @@
+Logical Operators
+
+Assignment operator:=
+Arithmetic:+,-,*,/,%
+Relational:<,>,<=,>=,==,!=
+
+
+Logical Operators:&&,||,! 
+* to test 2 or more conditions we use &&, ||
+
+ -Logical 'AND' $$  IF ONE CONDITION IS false THE RESULT WILL BE FALSE
+ 
+ true $$ true ->> logical end is ->>> TRUE 
+ true $$ false ->>>FALSE
+ false $$ true ->>>FALSE
+ false $$ false ->>>FALSE
+ 
+ 
+ -Logical 'OR' || -> IF ONE CONDITION IS TRUE THE RESULT WILL BE TRUE
+ 
+ true || true --->>> TRUE
+ true || false ->>>> TRUE
+ false || true ->>>> TRUE
+ false || false ->>> FALSE
+ 
+ 
+ 
+ Initializing : example:largest=0;
+ 
+ "zero" is not the largest variable. If we don't assign a value to largest number, Java gets confused and do not execute our code. 
+ So we initialize variable which means the system assign a default value which is "0" in this case.
+This way our code works and we can see the expected output
+
+default value given by compiler: 
+int =0;
+double=0.0;
+boolean = false;
+String and other non primitive =null;

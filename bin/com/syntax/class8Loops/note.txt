@@ -1,0 +1,80 @@
+LOOPS --> REPEATS A BLOCK OF CODE
+EXEC A BLOCK OF CODE THAT A REPETITIVE EXECUTIONS
+Loops can be -> true / false
+
+
+while
+do while
+for
+enhanced for loop / advance for loop
+
+/////////////////////////////////////////////
+////////////////////////////////////////////
+
+
+int time=11;
+
+if (time<12) {
+System.out.prinln ("Good morning");
+}
+
+while (time<12) {   //its a code in Java -->>> Loop -->repeat this block of code
+System.out.println ("Good morning");
+}
+
+//////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+while loop syntax
+
+while (boolean condition) {
+
+code to be repeated
+
+}
+
+*******************************************************
+*******************************************************
+
+- do while loop ==>> condition its checked Last, it will execute at least one even if the condition its False, checks the condition later
+* we don't know how many times we will need to use this block of code
+
+syntax:
+
+do {
+code to be repeated;
+} while (boolean condition);
+
+while vs do while -->>> both loops executed while condition is True
+
+while Loop first CHECK condition -> if True -> executes code
+
+do while firstEXECUTES code -->> then checks conditions
+
+
+*********************************************************
+*********************************************************
+
+for Loop-->>  when you know in ADVANCE how many times do  you need to RUN / REPEAT your block of code!!!!!
+
+
+
+Syntax:
+
+for (initialization; condition; increment/decrement) {
+
+code to be repeated;
+
+}
+
+//Hello 5 times:
+
+for (int i=1; i<=5; i++) {
+
+System.out.println("Hello!");
+
+}
+
+
+
+

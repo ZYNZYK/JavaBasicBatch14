@@ -1,0 +1,16 @@
+Switch Class -choice functionality / alternative for else if -statements -->> statement that executes one statement from multiple values/conditions (else if)
+
+
+SWITCH SYNTAX
+
+switch (variable) {
+
+       case value1:
+          code A;
+          break;
+       case value2:
+          code B;
+          break;   
+       default:
+          code C;
+          break;
