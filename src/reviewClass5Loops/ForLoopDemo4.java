@@ -16,9 +16,8 @@ public class ForLoopDemo4 {
 	}
 
 
-	
 
-
+{
 Scanner scan=new Scanner(System.in);
 	System.out.println ("Enter the number");
 	int i=scan.nextInt();
@@ -34,11 +33,11 @@ Scanner scan=new Scanner(System.in);
 ; * 
  */
 	
-	for (int y=0;i!=10; j=0) {
+	for (int y=0;i!=10; y=0) {
 		System.out.println(i);
 i=scan.nextInt();	
 	
 }
 	}
-	}
+}
 	
